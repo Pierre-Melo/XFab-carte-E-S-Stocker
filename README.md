@@ -78,7 +78,7 @@ Dans le cas contraire, une version portable est disponible à [ce lien](https://
   ![Fenêtre console PuTTY](assets/FenetrePutty.png)  
 ***Félicitation ! Vous êtes dans la console de votre carte.***
 
-##Utilitaires
+## Utilitaires
 Voici une listes des différents utilitaires et de leurs fonctions :
 
 | Nom        | Fonction                                                                 | Appel                                                                                           |
