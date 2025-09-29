@@ -1,0 +1,8 @@
+TRANSLATE("only slices with step=1 (aka None) are supported")
+TRANSLATE("Slice and value different lengths.")
+TRANSLATE("Array values should be single bytes.")
+TRANSLATE("array/bytes required on right side")
+TRANSLATE("Unable to write to nvm.")
+Q(bytes)
+TRANSLATE("Unable to write to nvm.")
+Q(ByteArray)

@@ -1,0 +1,3 @@
+TRANSLATE("a bytes-like object is required")
+TRANSLATE("incorrect padding")
+MP_REGISTER_EXTENSIBLE_MODULE(MP_QSTR_binascii, mp_module_binascii);

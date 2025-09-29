@@ -1,0 +1,1 @@
+MP_REGISTER_MODULE(MP_QSTR_usb_dot_core, usb_core_module);

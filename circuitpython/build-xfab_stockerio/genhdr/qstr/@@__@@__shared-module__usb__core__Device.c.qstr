@@ -1,0 +1,7 @@
+TRANSLATE("No usb host port initialized")
+TRANSLATE("Pipe error")
+TRANSLATE("Pipe error")
+TRANSLATE("No configuration set")
+TRANSLATE("Could not allocate DMA capable buffer")
+TRANSLATE("Could not allocate DMA capable buffer")
+TRANSLATE("Could not allocate DMA capable buffer")

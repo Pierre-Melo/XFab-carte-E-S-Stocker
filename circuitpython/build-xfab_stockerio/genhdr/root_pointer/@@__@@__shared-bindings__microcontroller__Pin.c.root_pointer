@@ -1,0 +1,4 @@
+TRANSLATE("%q contains duplicate pins")
+TRANSLATE("%q and %q contain duplicate pins")
+TRANSLATE("%q in use")
+TRANSLATE("Invalid %q pin")

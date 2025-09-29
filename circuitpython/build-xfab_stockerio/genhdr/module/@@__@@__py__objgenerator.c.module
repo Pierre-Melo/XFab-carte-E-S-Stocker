@@ -1,0 +1,5 @@
+TRANSLATE("generator already executing")
+TRANSLATE("can't send non-None value to a just-started generator")
+TRANSLATE("generator raised StopIteration")
+TRANSLATE("generator ignored GeneratorExit")
+TRANSLATE("generator already executing")

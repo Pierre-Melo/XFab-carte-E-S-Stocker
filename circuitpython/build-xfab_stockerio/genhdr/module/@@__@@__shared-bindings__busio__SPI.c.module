@@ -1,0 +1,3 @@
+TRANSLATE("Must provide MISO or MOSI pin")
+TRANSLATE("Function requires lock")
+TRANSLATE("buffer slices must be of equal length")

@@ -1,0 +1,6 @@
+TRANSLATE("stop not reachable from start")
+TRANSLATE("stop not reachable from start")
+TRANSLATE("%q step cannot be zero")
+TRANSLATE("invalid step")
+TRANSLATE("empty sequence")
+MP_REGISTER_MODULE(MP_QSTR_random, random_module);

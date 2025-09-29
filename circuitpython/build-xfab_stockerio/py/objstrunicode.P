@@ -1,0 +1,132 @@
+build-xfab_stockerio/py/objstrunicode.o: ../../py/objstrunicode.c \
+ /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
+ /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
+ /usr/include/newlib/sys/features.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+ /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/_locale.h \
+ /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
+ /usr/include/newlib/assert.h ../../py/objstr.h ../../py/obj.h \
+ ../../py/mpconfig.h build-xfab_stockerio/genhdr/mpversion.h \
+ mpconfigport.h \
+ sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+ ../../py/circuitpy_mpconfig.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+ sdk/src/rp2_common/pico_atomic/include/stdatomic.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdatomic.h \
+ sdk/src/common/pico_base_headers/include/pico.h \
+ sdk/src/common/pico_base_headers/include/pico/types.h \
+ sdk/src/common/pico_base_headers/include/pico/assert.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
+ sdk_config/pico/version.h \
+ sdk/src/common/pico_base_headers/include/pico/config.h \
+ sdk_config/pico/config_autogen.h \
+ sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ boards/xfab_stockerio/pico-sdk-configboard.h \
+ sdk/src/rp2350/pico_platform/include/pico/platform.h \
+ sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+ sdk/src/common/pico_base_headers/include/pico/types.h \
+ sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+ sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+ sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+ sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+ sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+ sdk/src/common/pico_base_headers/include/pico/error.h \
+ ../../supervisor/port_heap.h boards/xfab_stockerio/mpconfigboard.h \
+ /usr/include/newlib/alloca.h \
+ sdk/src/common/pico_sync/include/pico/critical_section.h \
+ sdk/src/common/pico_sync/include/pico/lock_core.h \
+ sdk/src/common/pico_time/include/pico/time.h \
+ sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+ sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+ sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+ sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+ sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+ sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+ ../../py/misc.h ../../py/mpconfig.h \
+ ../../supervisor/shared/translate/translate.h \
+ ../../supervisor/shared/translate/compressed_string.h \
+ ../../supervisor/shared/translate/translate_impl.h \
+ build-xfab_stockerio/genhdr/qstrdefs.generated.h ../../py/qstr.h \
+ ../../py/mpprint.h ../../py/runtime0.h ../../py/objarray.h \
+ ../../py/objlist.h ../../py/runtime.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h ../../py/mpstate.h \
+ ../../py/mpthread.h ../../py/nlr.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/limits.h ../../py/objexcept.h \
+ ../../py/objtuple.h ../../py/objtraceback.h \
+ ../../shared-bindings/warnings/__init__.h \
+ build-xfab_stockerio/genhdr/root_pointers.h ../../py/pystack.h \
+ ../../py/cstack.h ../../supervisor/linker.h
+../../py/objstrunicode.c :
+ /usr/include/newlib/string.h /usr/include/newlib/_ansi.h :
+ /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h :
+ /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h :
+ /usr/include/newlib/sys/features.h /usr/include/newlib/sys/reent.h :
+ /usr/include/newlib/_ansi.h :
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h :
+ /usr/include/newlib/sys/cdefs.h :
+ /usr/include/newlib/machine/_default_types.h :
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h :
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/_locale.h :
+ /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h :
+ /usr/include/newlib/assert.h ../../py/objstr.h ../../py/obj.h :
+ ../../py/mpconfig.h build-xfab_stockerio/genhdr/mpversion.h :
+ mpconfigport.h :
+ sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h :
+ ../../py/circuitpy_mpconfig.h :
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h :
+ sdk/src/rp2_common/pico_atomic/include/stdatomic.h :
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdatomic.h :
+ sdk/src/common/pico_base_headers/include/pico.h :
+ sdk/src/common/pico_base_headers/include/pico/types.h :
+ sdk/src/common/pico_base_headers/include/pico/assert.h :
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h :
+ sdk_config/pico/version.h :
+ sdk/src/common/pico_base_headers/include/pico/config.h :
+ sdk_config/pico/config_autogen.h :
+ sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h :
+ boards/xfab_stockerio/pico-sdk-configboard.h :
+ sdk/src/rp2350/pico_platform/include/pico/platform.h :
+ sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h :
+ sdk/src/common/pico_base_headers/include/pico/types.h :
+ sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h :
+ sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h :
+ sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h :
+ sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h :
+ sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h :
+ sdk/src/common/pico_base_headers/include/pico/error.h :
+ ../../supervisor/port_heap.h boards/xfab_stockerio/mpconfigboard.h :
+ /usr/include/newlib/alloca.h :
+ sdk/src/common/pico_sync/include/pico/critical_section.h :
+ sdk/src/common/pico_sync/include/pico/lock_core.h :
+ sdk/src/common/pico_time/include/pico/time.h :
+ sdk/src/rp2_common/hardware_timer/include/hardware/timer.h :
+ sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h :
+ sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h :
+ sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h :
+ sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h :
+ sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h :
+ sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h :
+ sdk/src/rp2_common/hardware_sync/include/hardware/sync.h :
+ sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h :
+ ../../py/misc.h ../../py/mpconfig.h :
+ ../../supervisor/shared/translate/translate.h :
+ ../../supervisor/shared/translate/compressed_string.h :
+ ../../supervisor/shared/translate/translate_impl.h :
+ build-xfab_stockerio/genhdr/qstrdefs.generated.h ../../py/qstr.h :
+ ../../py/mpprint.h ../../py/runtime0.h ../../py/objarray.h :
+ ../../py/objlist.h ../../py/runtime.h :
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h ../../py/mpstate.h :
+ ../../py/mpthread.h ../../py/nlr.h :
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/limits.h ../../py/objexcept.h :
+ ../../py/objtuple.h ../../py/objtraceback.h :
+ ../../shared-bindings/warnings/__init__.h :
+ build-xfab_stockerio/genhdr/root_pointers.h ../../py/pystack.h :
+ ../../py/cstack.h ../../supervisor/linker.h :

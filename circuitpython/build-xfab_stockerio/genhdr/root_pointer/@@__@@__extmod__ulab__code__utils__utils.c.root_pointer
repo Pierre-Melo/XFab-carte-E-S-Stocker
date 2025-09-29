@@ -1,0 +1,5 @@
+TRANSLATE("out must be a float dense array")
+TRANSLATE("offset is too large")
+TRANSLATE("buffer size must be a multiple of element size")
+TRANSLATE("buffer is smaller than requested size")
+TRANSLATE("out array is too small")

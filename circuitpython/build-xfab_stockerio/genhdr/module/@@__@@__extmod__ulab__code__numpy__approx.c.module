@@ -1,0 +1,3 @@
+TRANSLATE("interp is defined for 1D iterables of equal length")
+TRANSLATE("trapz is defined for 1D iterables")
+TRANSLATE("trapz is defined for 1D arrays of equal length")

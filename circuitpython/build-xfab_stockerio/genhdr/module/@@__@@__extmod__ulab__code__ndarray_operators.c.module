@@ -1,0 +1,5 @@
+TRANSLATE("operation not supported for the input types")
+TRANSLATE("dtype of int32 is not supported")
+TRANSLATE("cannot cast output with casting rule")
+TRANSLATE("results cannot be cast to specified type")
+TRANSLATE("results cannot be cast to specified type")

@@ -1,0 +1,3 @@
+Q(*)
+TRANSLATE("bytecode overflow")
+Q(BaseException)

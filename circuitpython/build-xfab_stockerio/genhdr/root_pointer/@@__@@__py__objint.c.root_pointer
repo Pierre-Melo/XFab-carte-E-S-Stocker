@@ -1,0 +1,5 @@
+TRANSLATE("can't convert %s to int")
+TRANSLATE("can't convert %s to int")
+TRANSLATE("value must fit in %d byte(s)")
+TRANSLATE("value must fit in %d byte(s)")
+TRANSLATE("%q=%q")

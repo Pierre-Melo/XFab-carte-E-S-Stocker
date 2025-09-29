@@ -1,0 +1,7 @@
+Q(left)
+Q(right)
+TRANSLATE("interp is defined for 1D iterables of equal length")
+Q(x)
+Q(dx)
+TRANSLATE("trapz is defined for 1D iterables")
+TRANSLATE("trapz is defined for 1D arrays of equal length")

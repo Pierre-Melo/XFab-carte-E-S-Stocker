@@ -1,0 +1,5 @@
+TRANSLATE("incompatible .mpy file")
+TRANSLATE("MicroPython .mpy file; use CircuitPython mpy-cross")
+TRANSLATE("incompatible .mpy file")
+TRANSLATE("native code in .mpy unsupported")
+TRANSLATE("incompatible .mpy arch")

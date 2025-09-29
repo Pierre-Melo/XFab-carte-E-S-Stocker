@@ -1,0 +1,3 @@
+TRANSLATE("local variable referenced before assignment")
+TRANSLATE("no active exception to reraise")
+TRANSLATE("opcode")

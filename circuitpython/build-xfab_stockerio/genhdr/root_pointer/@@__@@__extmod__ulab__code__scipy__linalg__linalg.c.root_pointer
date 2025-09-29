@@ -1,0 +1,5 @@
+TRANSLATE("first two arguments must be ndarrays")
+TRANSLATE("input must be a dense ndarray")
+TRANSLATE("input matrix is singular")
+TRANSLATE("first two arguments must be ndarrays")
+TRANSLATE("input must be a dense ndarray")

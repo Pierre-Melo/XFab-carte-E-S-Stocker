@@ -1,0 +1,4 @@
+TRANSLATE("chr() arg not in range(0x110000)")
+TRANSLATE("arg is an empty sequence")
+TRANSLATE("ord() expected a character, but string of length %d found")
+TRANSLATE("must use keyword argument for key function")

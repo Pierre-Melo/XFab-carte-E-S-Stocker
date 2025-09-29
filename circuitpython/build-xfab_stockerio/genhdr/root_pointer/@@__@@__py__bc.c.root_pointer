@@ -1,0 +1,6 @@
+TRANSLATE("function takes %d positional arguments but %d were given")
+TRANSLATE("function got multiple values for argument '%q'")
+TRANSLATE("unexpected keyword argument '%q'")
+TRANSLATE("function missing required positional argument #%d")
+TRANSLATE("function missing required keyword argument '%q'")
+TRANSLATE("function missing keyword-only argument")

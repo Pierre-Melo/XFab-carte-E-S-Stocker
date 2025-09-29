@@ -1,0 +1,4 @@
+TRANSLATE("Address range not allowed")
+TRANSLATE("Unable to access unaligned IO register")
+TRANSLATE("Unable to write to read-only memory")
+TRANSLATE("Unable to access unaligned IO register")

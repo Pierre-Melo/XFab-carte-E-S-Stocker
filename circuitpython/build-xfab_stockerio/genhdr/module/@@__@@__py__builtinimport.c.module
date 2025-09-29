@@ -1,0 +1,2 @@
+TRANSLATE("can't perform relative import")
+TRANSLATE("no module named '%q'")

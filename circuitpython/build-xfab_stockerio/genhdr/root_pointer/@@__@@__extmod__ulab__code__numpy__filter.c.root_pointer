@@ -1,0 +1,3 @@
+TRANSLATE("convolve arguments must be ndarrays")
+TRANSLATE("convolve arguments must be linear arrays")
+TRANSLATE("convolve arguments must not be empty")

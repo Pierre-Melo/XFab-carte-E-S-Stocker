@@ -1,0 +1,5 @@
+TRANSLATE("stop not reachable from start")
+TRANSLATE("stop not reachable from start")
+TRANSLATE("%q step cannot be zero")
+TRANSLATE("invalid step")
+TRANSLATE("empty sequence")

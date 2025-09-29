@@ -1,0 +1,8 @@
+TRANSLATE("first argument must be a function")
+TRANSLATE("function has the same sign at the ends of interval")
+TRANSLATE("maxiter should be > 0")
+TRANSLATE("first argument must be a function")
+TRANSLATE("maxiter must be > 0")
+TRANSLATE("first argument must be a function")
+TRANSLATE("maxiter must be > 0")
+MP_REGISTER_MODULE(MP_QSTR_ulab_dot_scipy_dot_optimize, ulab_scipy_optimize_module);

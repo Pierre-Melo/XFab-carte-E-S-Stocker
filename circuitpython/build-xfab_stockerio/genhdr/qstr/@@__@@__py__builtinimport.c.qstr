@@ -1,0 +1,8 @@
+Q(__file__)
+Q(__file__)
+Q(__name__)
+Q(__path__)
+TRANSLATE("can't perform relative import")
+Q(__path__)
+TRANSLATE("no module named '%q'")
+Q(__path__)

@@ -1,0 +1,2 @@
+TRANSLATE("pop from empty %q")
+TRANSLATE("dict update sequence has wrong length")

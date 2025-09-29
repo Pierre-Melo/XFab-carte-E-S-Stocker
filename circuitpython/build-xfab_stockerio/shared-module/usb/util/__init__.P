@@ -1,0 +1,3 @@
+build-xfab_stockerio/shared-module/usb/util/__init__.o: \
+ ../../shared-module/usb/util/__init__.c
+ ../../shared-module/usb/util/__init__.c :

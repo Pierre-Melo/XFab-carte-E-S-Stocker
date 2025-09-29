@@ -1,0 +1,11 @@
+build-xfab_stockerio/supervisor/shared/cpu.o: \
+ ../../supervisor/shared/cpu.c \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+ ../../supervisor/shared/cpu.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
+ ../../supervisor/shared/cpu.c :
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h :
+ ../../supervisor/shared/cpu.h :
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h :
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h :

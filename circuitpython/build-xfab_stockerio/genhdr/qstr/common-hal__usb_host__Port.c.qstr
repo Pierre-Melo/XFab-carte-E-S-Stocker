@@ -1,0 +1,4 @@
+TRANSLATE("All state machines in use")
+Q(usb_host)
+TRANSLATE("%q in use")
+TRANSLATE("All dma channels in use")

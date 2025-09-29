@@ -1,0 +1,5 @@
+Q(single)
+Q(exec)
+Q(eval)
+TRANSLATE("bad compile mode")
+Q(<string>)

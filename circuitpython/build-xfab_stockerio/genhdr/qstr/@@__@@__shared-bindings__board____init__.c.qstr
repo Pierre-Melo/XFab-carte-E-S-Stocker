@@ -1,0 +1,7 @@
+Q(I2C)
+TRANSLATE("No default %q bus")
+Q(SPI)
+TRANSLATE("No default %q bus")
+Q(UART)
+TRANSLATE("No default %q bus")
+Q(board)

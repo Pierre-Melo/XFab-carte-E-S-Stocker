@@ -1,0 +1,3 @@
+TRANSLATE("can't truncate-divide a complex number")
+TRANSLATE("complex divide by zero")
+TRANSLATE("0.0 to a complex power")

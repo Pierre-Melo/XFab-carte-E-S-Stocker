@@ -1,0 +1,7 @@
+Q(iterator)
+Q(range)
+TRANSLATE("%q step cannot be zero")
+Q(start)
+Q(stop)
+Q(step)
+Q(range)

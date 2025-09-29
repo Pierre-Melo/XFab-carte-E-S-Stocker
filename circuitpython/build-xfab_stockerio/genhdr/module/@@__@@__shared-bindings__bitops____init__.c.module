@@ -1,0 +1,2 @@
+TRANSLATE("Input buffer length (%d) must be a multiple of the strand count (%d)")
+MP_REGISTER_MODULE(MP_QSTR_bitops, bitops_module);

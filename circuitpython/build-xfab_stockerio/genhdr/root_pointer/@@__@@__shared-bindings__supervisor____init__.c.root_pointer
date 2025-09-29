@@ -1,0 +1,4 @@
+TRANSLATE("%q must be of type %q or %q, not %q")
+TRANSLATE("%q must be of type %q or %q, not %q")
+TRANSLATE("File not found")
+TRANSLATE("Invalid %q")

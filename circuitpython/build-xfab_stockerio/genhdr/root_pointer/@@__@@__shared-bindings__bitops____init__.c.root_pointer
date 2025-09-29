@@ -1,0 +1,1 @@
+TRANSLATE("Input buffer length (%d) must be a multiple of the strand count (%d)")

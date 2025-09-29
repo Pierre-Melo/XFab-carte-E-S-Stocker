@@ -1,0 +1,2 @@
+TRANSLATE("tx and rx cannot both be None")
+TRANSLATE("Must be a %q subclass.")

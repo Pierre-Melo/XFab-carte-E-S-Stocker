@@ -1,0 +1,7 @@
+TRANSLATE("Key must be 16, 24, or 32 bytes long")
+TRANSLATE("Requested AES mode is unsupported")
+TRANSLATE("Key must be 16, 24, or 32 bytes long")
+TRANSLATE("Source and destination buffers must be the same length")
+TRANSLATE("ECB only operates on 16 bytes at a time")
+TRANSLATE("CBC blocks must be multiples of 16 bytes")
+TRANSLATE("Requested AES mode is unsupported")

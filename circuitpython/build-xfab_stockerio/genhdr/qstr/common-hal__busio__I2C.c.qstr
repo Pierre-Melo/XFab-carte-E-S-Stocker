@@ -1,0 +1,3 @@
+TRANSLATE("I2C peripheral in use")
+Q(frequency)
+TRANSLATE("No pull up found on SDA or SCL; check your wiring")

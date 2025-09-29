@@ -1,0 +1,1483 @@
+MP_REGISTER_EXTENSIBLE_MODULE(MP_QSTR_array, mp_module_array);
+
+MP_REGISTER_EXTENSIBLE_MODULE(MP_QSTR_binascii, mp_module_binascii);
+
+MP_REGISTER_EXTENSIBLE_MODULE(MP_QSTR_collections, mp_module_collections);
+
+MP_REGISTER_EXTENSIBLE_MODULE(MP_QSTR_errno, mp_module_errno);
+
+MP_REGISTER_EXTENSIBLE_MODULE(MP_QSTR_io, mp_module_io);
+
+MP_REGISTER_EXTENSIBLE_MODULE(MP_QSTR_json, mp_module_json);
+
+MP_REGISTER_EXTENSIBLE_MODULE(MP_QSTR_re, mp_module_re);
+
+MP_REGISTER_EXTENSIBLE_MODULE(MP_QSTR_select, mp_module_select);
+
+MP_REGISTER_MODULE(MP_QSTR___future__, future_module);
+
+MP_REGISTER_MODULE(MP_QSTR___main__, mp_module___main__);
+
+MP_REGISTER_MODULE(MP_QSTR__asyncio, mp_module_asyncio);
+
+MP_REGISTER_MODULE(MP_QSTR__pixelmap, pixelmap_module);
+
+MP_REGISTER_MODULE(MP_QSTR_adafruit_bus_device, adafruit_bus_device_module);
+
+MP_REGISTER_MODULE(MP_QSTR_adafruit_bus_device_dot_i2c_device, adafruit_bus_device_i2c_device_module);
+
+MP_REGISTER_MODULE(MP_QSTR_adafruit_bus_device_dot_spi_device, adafruit_bus_device_spi_device_module);
+
+MP_REGISTER_MODULE(MP_QSTR_adafruit_pixelbuf, pixelbuf_module);
+
+MP_REGISTER_MODULE(MP_QSTR_aesio, aesio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_analogbufio, analogbufio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_atexit, atexit_module);
+
+MP_REGISTER_MODULE(MP_QSTR_bitbangio, bitbangio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_bitops, bitops_module);
+
+MP_REGISTER_MODULE(MP_QSTR_board, board_module);
+
+MP_REGISTER_MODULE(MP_QSTR_builtins, mp_module_builtins);
+
+MP_REGISTER_MODULE(MP_QSTR_busio, busio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_codeop, codeop_module);
+
+MP_REGISTER_MODULE(MP_QSTR_countio, countio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_digitalio, digitalio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_floppyio, floppyio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_gc, mp_module_gc);
+
+MP_REGISTER_MODULE(MP_QSTR_getpass, getpass_module);
+
+MP_REGISTER_MODULE(MP_QSTR_hashlib, hashlib_module);
+
+MP_REGISTER_MODULE(MP_QSTR_i2ctarget, i2ctarget_module);
+
+MP_REGISTER_MODULE(MP_QSTR_imagecapture, imagecapture_module);
+
+MP_REGISTER_MODULE(MP_QSTR_locale, locale_module);
+
+MP_REGISTER_MODULE(MP_QSTR_math, math_module);
+
+MP_REGISTER_MODULE(MP_QSTR_memorymap, memorymap_module);
+
+MP_REGISTER_MODULE(MP_QSTR_microcontroller, microcontroller_module);
+
+MP_REGISTER_MODULE(MP_QSTR_micropython, mp_module_micropython);
+
+MP_REGISTER_MODULE(MP_QSTR_msgpack, msgpack_module);
+
+MP_REGISTER_MODULE(MP_QSTR_nvm, nvm_module);
+
+MP_REGISTER_MODULE(MP_QSTR_onewireio, onewireio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_os, os_module);
+
+MP_REGISTER_MODULE(MP_QSTR_pulseio, pulseio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_pwmio, pwmio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_qrio, qrio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_rainbowio, rainbowio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_random, random_module);
+
+MP_REGISTER_MODULE(MP_QSTR_rp2pio, rp2pio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_storage, storage_module);
+
+MP_REGISTER_MODULE(MP_QSTR_struct, struct_module);
+
+MP_REGISTER_MODULE(MP_QSTR_supervisor, supervisor_module);
+
+MP_REGISTER_MODULE(MP_QSTR_sys, mp_module_sys);
+
+MP_REGISTER_MODULE(MP_QSTR_time, time_module);
+
+MP_REGISTER_MODULE(MP_QSTR_touchio, touchio_module);
+
+MP_REGISTER_MODULE(MP_QSTR_traceback, traceback_module);
+
+MP_REGISTER_MODULE(MP_QSTR_ulab, ulab_user_cmodule);
+
+MP_REGISTER_MODULE(MP_QSTR_ulab_dot_numpy, ulab_numpy_module);
+
+MP_REGISTER_MODULE(MP_QSTR_ulab_dot_numpy_dot_fft, ulab_fft_module);
+
+MP_REGISTER_MODULE(MP_QSTR_ulab_dot_numpy_dot_linalg, ulab_linalg_module);
+
+MP_REGISTER_MODULE(MP_QSTR_ulab_dot_scipy, ulab_scipy_module);
+
+MP_REGISTER_MODULE(MP_QSTR_ulab_dot_scipy_dot_linalg, ulab_scipy_linalg_module);
+
+MP_REGISTER_MODULE(MP_QSTR_ulab_dot_scipy_dot_optimize, ulab_scipy_optimize_module);
+
+MP_REGISTER_MODULE(MP_QSTR_ulab_dot_scipy_dot_signal, ulab_scipy_signal_module);
+
+MP_REGISTER_MODULE(MP_QSTR_ulab_dot_scipy_dot_special, ulab_scipy_special_module);
+
+MP_REGISTER_MODULE(MP_QSTR_ulab_dot_utils, ulab_utils_module);
+
+MP_REGISTER_MODULE(MP_QSTR_usb, usb_module);
+
+MP_REGISTER_MODULE(MP_QSTR_usb_cdc, usb_cdc_module);
+
+MP_REGISTER_MODULE(MP_QSTR_usb_dot_core, usb_core_module);
+
+MP_REGISTER_MODULE(MP_QSTR_usb_dot_util, usb_util_module);
+
+MP_REGISTER_MODULE(MP_QSTR_usb_host, usb_host_module);
+
+MP_REGISTER_MODULE(MP_QSTR_usb_video, usb_video_module);
+
+MP_REGISTER_MODULE(MP_QSTR_warnings, warnings_module);
+
+MP_REGISTER_MODULE(MP_QSTR_watchdog, watchdog_module);
+
+MP_REGISTER_MODULE(MP_QSTR_zlib, zlib_module);
+
+MP_REGISTER_MODULE_DELEGATION(mp_module_sys, mp_module_sys_attr);
+
+TRANSLATE("  File \"%q\", line %d")
+
+TRANSLATE(" is of type %q\n")
+
+TRANSLATE(" not found.\n")
+
+TRANSLATE(" output:\n")
+
+TRANSLATE("%%c needs int or char")
+
+TRANSLATE("%%c needs int or char")
+
+TRANSLATE("%02X")
+
+TRANSLATE("%S")
+
+TRANSLATE("%S")
+
+TRANSLATE("%S")
+
+TRANSLATE("%S")
+
+TRANSLATE("%q and %q contain duplicate pins")
+
+TRANSLATE("%q contains duplicate pins")
+
+TRANSLATE("%q in %q must be of type %q, not %q")
+
+TRANSLATE("%q in use")
+
+TRANSLATE("%q in use")
+
+TRANSLATE("%q in use")
+
+TRANSLATE("%q in use")
+
+TRANSLATE("%q index out of range")
+
+TRANSLATE("%q index out of range")
+
+TRANSLATE("%q indices must be integers, not %s")
+
+TRANSLATE("%q init failed")
+
+TRANSLATE("%q init failed")
+
+TRANSLATE("%q init failed")
+
+TRANSLATE("%q length must be %d")
+
+TRANSLATE("%q length must be %d-%d")
+
+TRANSLATE("%q length must be <= %d")
+
+TRANSLATE("%q length must be >= %d")
+
+TRANSLATE("%q must be %d")
+
+TRANSLATE("%q must be %d-%d")
+
+TRANSLATE("%q must be %d-%d")
+
+TRANSLATE("%q must be <= %d")
+
+TRANSLATE("%q must be >= %d")
+
+TRANSLATE("%q must be >= %d")
+
+TRANSLATE("%q must be a bytearray or array of type 'H' or 'B'")
+
+TRANSLATE("%q must be a subclass of %q")
+
+TRANSLATE("%q must be of type %q or %q, not %q")
+
+TRANSLATE("%q must be of type %q or %q, not %q")
+
+TRANSLATE("%q must be of type %q or %q, not %q")
+
+TRANSLATE("%q must be of type %q or %q, not %q")
+
+TRANSLATE("%q must be of type %q or %q, not %q")
+
+TRANSLATE("%q must be of type %q or %q, not %q")
+
+TRANSLATE("%q must be of type %q or %q, not %q")
+
+TRANSLATE("%q must be of type %q, not %q")
+
+TRANSLATE("%q must be of type %q, not %q")
+
+TRANSLATE("%q must be of type %q, not %q")
+
+TRANSLATE("%q must be of type %q, not %q")
+
+TRANSLATE("%q must be of type %q, not %q")
+
+TRANSLATE("%q out of range")
+
+TRANSLATE("%q out of range")
+
+TRANSLATE("%q out of range")
+
+TRANSLATE("%q step cannot be zero")
+
+TRANSLATE("%q step cannot be zero")
+
+TRANSLATE("%q step cannot be zero")
+
+TRANSLATE("%q too long")
+
+TRANSLATE("%q")
+
+TRANSLATE("%q=%q")
+
+TRANSLATE("%q=%q")
+
+TRANSLATE("%q[%u] shifts in more bits than pin count")
+
+TRANSLATE("%q[%u] shifts out more bits than pin count")
+
+TRANSLATE("%q[%u] uses extra pin")
+
+TRANSLATE("%q[%u] waits on input outside of count")
+
+TRANSLATE("%s")
+
+TRANSLATE("'%q' argument required")
+
+TRANSLATE("'%q' object does not support '%q'")
+
+TRANSLATE("'%q' object isn't an iterator")
+
+TRANSLATE("'%q' object isn't an iterator")
+
+TRANSLATE("'%q' object isn't callable")
+
+TRANSLATE("'%q' object isn't callable")
+
+TRANSLATE("'%q' object isn't callable")
+
+TRANSLATE("'%q' object isn't iterable")
+
+TRANSLATE("'%s' object doesn't support item assignment")
+
+TRANSLATE("'%s' object doesn't support item deletion")
+
+TRANSLATE("'%s' object has no attribute '%q'")
+
+TRANSLATE("'%s' object isn't subscriptable")
+
+TRANSLATE("'=' alignment not allowed in string format specifier")
+
+TRANSLATE("'await' outside function")
+
+TRANSLATE("'break'/'continue' outside loop")
+
+TRANSLATE("'return' outside function")
+
+TRANSLATE("'yield from' inside async function")
+
+TRANSLATE("'yield' outside function")
+
+TRANSLATE("* arg after **")
+
+TRANSLATE("*x must be assignment target")
+
+TRANSLATE(", in %q\n")
+
+TRANSLATE("0.0 to a complex power")
+
+TRANSLATE("Address range not allowed")
+
+TRANSLATE("Address range wraps around")
+
+TRANSLATE("All dma channels in use")
+
+TRANSLATE("All state machines in use")
+
+TRANSLATE("All state machines in use")
+
+TRANSLATE("All state machines in use")
+
+TRANSLATE("An error occurred while retrieving '%s':\n")
+
+TRANSLATE("Array must contain halfwords (type 'H')")
+
+TRANSLATE("Array values should be single bytes.")
+
+TRANSLATE("Array values should be single bytes.")
+
+TRANSLATE("Auto-reload is off.\n")
+
+TRANSLATE("Auto-reload is on. Simply save files over USB to run them or enter REPL to disable.\n")
+
+TRANSLATE("Boot device must be first (interface #0).")
+
+TRANSLATE("Buffer elements must be 4 bytes long or less")
+
+TRANSLATE("Buffer elements must be 4 bytes long or less")
+
+TRANSLATE("Buffer elements must be 4 bytes long or less")
+
+TRANSLATE("Buffer must be a multiple of %d bytes")
+
+TRANSLATE("Buffer too small")
+
+TRANSLATE("Buffer too small")
+
+TRANSLATE("Buffer too small")
+
+TRANSLATE("CBC blocks must be multiples of 16 bytes")
+
+TRANSLATE("CIRCUITPY drive could not be found or created.")
+
+TRANSLATE("Call super().__init__() before accessing native object.")
+
+TRANSLATE("Cannot change USB devices now")
+
+TRANSLATE("Cannot change USB devices now")
+
+TRANSLATE("Cannot change USB devices now")
+
+TRANSLATE("Cannot change USB devices now")
+
+TRANSLATE("Cannot change USB devices now")
+
+TRANSLATE("Cannot delete values")
+
+TRANSLATE("Cannot get pull while in output mode")
+
+TRANSLATE("Cannot remount path when visible via USB.")
+
+TRANSLATE("Cannot set value when direction is input.")
+
+TRANSLATE("Cannot subclass slice")
+
+TRANSLATE("Cannot use GPIO0..15 together with GPIO32..47")
+
+TRANSLATE("CircuitPython core code crashed hard. Whoops!\n")
+
+TRANSLATE("Could not allocate DMA capable buffer")
+
+TRANSLATE("Could not allocate DMA capable buffer")
+
+TRANSLATE("Could not allocate DMA capable buffer")
+
+TRANSLATE("Done")
+
+TRANSLATE("Drive mode not used when direction is input.")
+
+TRANSLATE("Drive mode not used when direction is input.")
+
+TRANSLATE("During handling of the above exception, another exception occurred:")
+
+TRANSLATE("ECB only operates on 16 bytes at a time")
+
+TRANSLATE("Error in regex")
+
+TRANSLATE("Error in safemode.py.")
+
+TRANSLATE("FFT is defined for ndarrays only")
+
+TRANSLATE("FFT is defined for ndarrays only")
+
+TRANSLATE("FFT is implemented for linear arrays only")
+
+TRANSLATE("FFT is implemented for linear arrays only")
+
+TRANSLATE("Failed to write internal flash.")
+
+TRANSLATE("File exists")
+
+TRANSLATE("File not found")
+
+TRANSLATE("File not found")
+
+TRANSLATE("Function requires lock")
+
+TRANSLATE("Function requires lock")
+
+TRANSLATE("Function requires lock")
+
+TRANSLATE("Function requires lock")
+
+TRANSLATE("Hard fault: memory access or instruction error.")
+
+TRANSLATE("Heap allocation when VM not running.")
+
+TRANSLATE("I/O operation on closed file")
+
+TRANSLATE("I2C peripheral in use")
+
+TRANSLATE("I2C peripheral in use")
+
+TRANSLATE("In-buffer elements must be <= 4 bytes long")
+
+TRANSLATE("Init program size invalid")
+
+TRANSLATE("Initial set pin direction conflicts with initial out pin direction")
+
+TRANSLATE("Initial set pin state conflicts with initial out pin state")
+
+TRANSLATE("Input buffer length (%d) must be a multiple of the strand count (%d)")
+
+TRANSLATE("Input/output error")
+
+TRANSLATE("Internal error")
+
+TRANSLATE("Internal error")
+
+TRANSLATE("Internal resource(s) in use")
+
+TRANSLATE("Internal watchdog timer expired.")
+
+TRANSLATE("Interrupt error.")
+
+TRANSLATE("Invalid %q pin")
+
+TRANSLATE("Invalid %q")
+
+TRANSLATE("Invalid %q")
+
+TRANSLATE("Invalid %q")
+
+TRANSLATE("Invalid %q")
+
+TRANSLATE("Invalid argument")
+
+TRANSLATE("Invalid byte %.*s")
+
+TRANSLATE("Invalid format")
+
+TRANSLATE("Invalid unicode escape")
+
+TRANSLATE("Key must be 16, 24, or 32 bytes long")
+
+TRANSLATE("Key must be 16, 24, or 32 bytes long")
+
+TRANSLATE("Key not found")
+
+TRANSLATE("LHS of keyword arg must be an id")
+
+TRANSLATE("MicroPython .mpy file; use CircuitPython mpy-cross")
+
+TRANSLATE("Mismatched data size")
+
+TRANSLATE("Mismatched data size")
+
+TRANSLATE("Mismatched data size")
+
+TRANSLATE("Mismatched swap flag")
+
+TRANSLATE("Mismatched swap flag")
+
+TRANSLATE("Missing first_in_pin. %q[%u] reads pin(s)")
+
+TRANSLATE("Missing first_in_pin. %q[%u] shifts in from pin(s)")
+
+TRANSLATE("Missing first_in_pin. %q[%u] waits based on pin")
+
+TRANSLATE("Missing first_out_pin. %q[%u] shifts out to pin(s)")
+
+TRANSLATE("Missing first_out_pin. %q[%u] writes pin(s)")
+
+TRANSLATE("Missing first_set_pin. %q[%u] sets pin(s)")
+
+TRANSLATE("Missing jmp_pin. %q[%u] jumps on pin")
+
+TRANSLATE("Mount point directory missing")
+
+TRANSLATE("Mount point directory missing")
+
+TRANSLATE("Must be a %q subclass.")
+
+TRANSLATE("Must provide MISO or MOSI pin")
+
+TRANSLATE("NLR jump failed. Likely memory corruption.")
+
+TRANSLATE("No %q pin")
+
+TRANSLATE("No %q pin")
+
+TRANSLATE("No %q pin")
+
+TRANSLATE("No %q pin")
+
+TRANSLATE("No %q pin")
+
+TRANSLATE("No %q pin")
+
+TRANSLATE("No I2C device at address: 0x%x")
+
+TRANSLATE("No configuration set")
+
+TRANSLATE("No default %q bus")
+
+TRANSLATE("No default %q bus")
+
+TRANSLATE("No default %q bus")
+
+TRANSLATE("No hardware random available")
+
+TRANSLATE("No in in program")
+
+TRANSLATE("No in or out in program")
+
+TRANSLATE("No out in program")
+
+TRANSLATE("No pull up found on SDA or SCL; check your wiring")
+
+TRANSLATE("No pulldown on pin; 1Mohm recommended")
+
+TRANSLATE("No pullup on pin; 1Mohm recommended")
+
+TRANSLATE("No space left on device")
+
+TRANSLATE("No such device")
+
+TRANSLATE("No such file/directory")
+
+TRANSLATE("No usb host port initialized")
+
+TRANSLATE("Object has been deinitialized and can no longer be used. Create a new object.")
+
+TRANSLATE("Only one address is allowed")
+
+TRANSLATE("Operation not permitted")
+
+TRANSLATE("Out-buffer elements must be <= 4 bytes long")
+
+TRANSLATE("PWM slice already in use")
+
+TRANSLATE("PWM slice channel A already in use")
+
+TRANSLATE("Permission denied")
+
+TRANSLATE("Pin count too large")
+
+TRANSLATE("Pin must be on PWM Channel B")
+
+TRANSLATE("Pins must be sequential")
+
+TRANSLATE("Pipe error")
+
+TRANSLATE("Pipe error")
+
+TRANSLATE("Plus any modules on the filesystem\n")
+
+TRANSLATE("Power dipped. Make sure you are providing enough power.")
+
+TRANSLATE("Press any key to enter the REPL. Use CTRL-D to reload.\n")
+
+TRANSLATE("Program does IN without loading ISR")
+
+TRANSLATE("Program does OUT without loading OSR")
+
+TRANSLATE("Program size invalid")
+
+TRANSLATE("Program size invalid")
+
+TRANSLATE("Pull not used when direction is output.")
+
+TRANSLATE("Pull not used when direction is output.")
+
+TRANSLATE("RISE_AND_FALL not available on this chip")
+
+TRANSLATE("RTC is not supported on this board")
+
+TRANSLATE("Read-only filesystem")
+
+TRANSLATE("Read-only filesystem")
+
+TRANSLATE("Read-only")
+
+TRANSLATE("Requested AES mode is unsupported")
+
+TRANSLATE("Requested AES mode is unsupported")
+
+TRANSLATE("Running in safe mode! Not running saved code.\n")
+
+TRANSLATE("SPI peripheral in use")
+
+TRANSLATE("Slice and value different lengths.")
+
+TRANSLATE("Slice and value different lengths.")
+
+TRANSLATE("Slices not supported")
+
+TRANSLATE("Source and destination buffers must be the same length")
+
+TRANSLATE("Stack overflow. Increase stack size.")
+
+TRANSLATE("The `microcontroller` module was used to boot into safe mode.")
+
+TRANSLATE("The above exception was the direct cause of the following exception:")
+
+TRANSLATE("Third-party firmware fatal error.")
+
+TRANSLATE("This microcontroller does not support continuous capture.")
+
+TRANSLATE("This microcontroller does not support continuous capture.")
+
+TRANSLATE("This microcontroller does not support continuous capture.")
+
+TRANSLATE("Traceback (most recent call last):\n")
+
+TRANSLATE("UART peripheral in use")
+
+TRANSLATE("UID:")
+
+TRANSLATE("USB devices need more endpoints than are available.")
+
+TRANSLATE("USB devices specify too many interface names.")
+
+TRANSLATE("Unable to access unaligned IO register")
+
+TRANSLATE("Unable to access unaligned IO register")
+
+TRANSLATE("Unable to allocate to the heap.")
+
+TRANSLATE("Unable to init parser")
+
+TRANSLATE("Unable to write to nvm.")
+
+TRANSLATE("Unable to write to nvm.")
+
+TRANSLATE("Unable to write to read-only memory")
+
+TRANSLATE("Unknown reason.")
+
+TRANSLATE("Unmatched number of items on RHS (expected %d, got %d).")
+
+TRANSLATE("Unmatched number of items on RHS (expected %d, got %d).")
+
+TRANSLATE("Unsupported hash algorithm")
+
+TRANSLATE("WARNING: Your code filename has two extensions\n")
+
+TRANSLATE("Welcome to Adafruit CircuitPython %s!\n\nVisit circuitpython.org for more information.\n\nTo list built-in modules type `help(\"modules\")`.\n")
+
+TRANSLATE("You pressed the BOOT button at start up")
+
+TRANSLATE("[truncated due to length]")
+
+TRANSLATE("[truncated due to length]")
+
+TRANSLATE("\nCode done running.\n")
+
+TRANSLATE("\nCode stopped by auto-reload. Reloading soon.\n")
+
+TRANSLATE("\nPlease file an issue with your program at github.com/adafruit/circuitpython/issues.")
+
+TRANSLATE("\nPress reset to exit safe mode.\n")
+
+TRANSLATE("\nYou are in safe mode because:\n")
+
+TRANSLATE("__init__() should return None, not '%s'")
+
+TRANSLATE("__new__ arg must be a user-type")
+
+TRANSLATE("a bytes-like object is required")
+
+TRANSLATE("a bytes-like object is required")
+
+TRANSLATE("abort() called")
+
+TRANSLATE("addresses is empty")
+
+TRANSLATE("arange: cannot compute length")
+
+TRANSLATE("arg is an empty sequence")
+
+TRANSLATE("argsort argument must be an ndarray")
+
+TRANSLATE("argsort is not implemented for flattened arrays")
+
+TRANSLATE("argument must be None, an integer or a tuple of integers")
+
+TRANSLATE("argument name reused")
+
+TRANSLATE("argument num/types mismatch")
+
+TRANSLATE("arguments must be ndarrays")
+
+TRANSLATE("arguments must be ndarrays")
+
+TRANSLATE("array and index length must be equal")
+
+TRANSLATE("array is too big")
+
+TRANSLATE("array/bytes required on right side")
+
+TRANSLATE("array/bytes required on right side")
+
+TRANSLATE("array/bytes required on right side")
+
+TRANSLATE("async for/with outside async function")
+
+TRANSLATE("attempt to get (arg)min/(arg)max of empty sequence")
+
+TRANSLATE("attempt to get argmin/argmax of an empty sequence")
+
+TRANSLATE("attributes not supported")
+
+TRANSLATE("axis is out of bounds")
+
+TRANSLATE("axis must be None, or an integer")
+
+TRANSLATE("axis must be None, or an integer")
+
+TRANSLATE("axis must be None, or an integer")
+
+TRANSLATE("axis too long")
+
+TRANSLATE("bad compile mode")
+
+TRANSLATE("bad conversion specifier")
+
+TRANSLATE("bad typecode")
+
+TRANSLATE("bad typecode")
+
+TRANSLATE("buffer is smaller than requested size")
+
+TRANSLATE("buffer is smaller than requested size")
+
+TRANSLATE("buffer size must be a multiple of element size")
+
+TRANSLATE("buffer size must be a multiple of element size")
+
+TRANSLATE("buffer size must match format")
+
+TRANSLATE("buffer slices must be of equal length")
+
+TRANSLATE("buffer slices must be of equal length")
+
+TRANSLATE("buffer too small")
+
+TRANSLATE("bytecode overflow")
+
+TRANSLATE("bytes length not a multiple of item size")
+
+TRANSLATE("bytes value out of range")
+
+TRANSLATE("can only specify one unknown dimension")
+
+TRANSLATE("can't add special method to already-subclassed class")
+
+TRANSLATE("can't assign to expression")
+
+TRANSLATE("can't assign to expression")
+
+TRANSLATE("can't assign to expression")
+
+TRANSLATE("can't cancel self")
+
+TRANSLATE("can't convert %q to %q")
+
+TRANSLATE("can't convert %q to %q")
+
+TRANSLATE("can't convert %s to complex")
+
+TRANSLATE("can't convert %s to float")
+
+TRANSLATE("can't convert %s to int")
+
+TRANSLATE("can't convert %s to int")
+
+TRANSLATE("can't convert %s to int")
+
+TRANSLATE("can't convert '%q' object to %q implicitly")
+
+TRANSLATE("can't create '%q' instances")
+
+TRANSLATE("can't declare nonlocal in outer code")
+
+TRANSLATE("can't delete expression")
+
+TRANSLATE("can't import name %q")
+
+TRANSLATE("can't perform relative import")
+
+TRANSLATE("can't send non-None value to a just-started generator")
+
+TRANSLATE("can't set attribute '%q'")
+
+TRANSLATE("can't set attribute")
+
+TRANSLATE("can't switch from automatic field numbering to manual field specification")
+
+TRANSLATE("can't switch from manual field specification to automatic field numbering")
+
+TRANSLATE("can't truncate-divide a complex number")
+
+TRANSLATE("can't wait")
+
+TRANSLATE("cannot assign new shape")
+
+TRANSLATE("cannot cast output with casting rule")
+
+TRANSLATE("cannot delete array elements")
+
+TRANSLATE("cannot reshape array")
+
+TRANSLATE("chr() arg not in range(0x110000)")
+
+TRANSLATE("code outside range 0~127")
+
+TRANSLATE("complex divide by zero")
+
+TRANSLATE("convolve arguments must be linear arrays")
+
+TRANSLATE("convolve arguments must be ndarrays")
+
+TRANSLATE("convolve arguments must not be empty")
+
+TRANSLATE("corrupted file")
+
+TRANSLATE("corrupted file")
+
+TRANSLATE("corrupted file")
+
+TRANSLATE("could not invert Vandermonde matrix")
+
+TRANSLATE("cross is defined for 1D arrays of length 3")
+
+TRANSLATE("data type not understood")
+
+TRANSLATE("default 'except' must be last")
+
+TRANSLATE("default is not a function")
+
+TRANSLATE("dict update sequence has wrong length")
+
+TRANSLATE("diff argument must be an ndarray")
+
+TRANSLATE("differentiation order out of range")
+
+TRANSLATE("differentiation order out of range")
+
+TRANSLATE("dimensions do not match")
+
+TRANSLATE("divide by zero")
+
+TRANSLATE("division by zero")
+
+TRANSLATE("dtype of int32 is not supported")
+
+TRANSLATE("empty file")
+
+TRANSLATE("empty heap")
+
+TRANSLATE("empty separator")
+
+TRANSLATE("empty separator")
+
+TRANSLATE("empty separator")
+
+TRANSLATE("empty sequence")
+
+TRANSLATE("empty")
+
+TRANSLATE("empty")
+
+TRANSLATE("en_US")
+
+TRANSLATE("exceptions must derive from BaseException")
+
+TRANSLATE("expected ':' after format specifier")
+
+TRANSLATE("expecting just a value for set")
+
+TRANSLATE("expecting key:value for dict")
+
+TRANSLATE("ext_hook is not a function")
+
+TRANSLATE("extra keyword arguments given")
+
+TRANSLATE("extra positional arguments given")
+
+TRANSLATE("filesystem must provide mount method")
+
+TRANSLATE("first argument must be a callable")
+
+TRANSLATE("first argument must be a function")
+
+TRANSLATE("first argument must be a function")
+
+TRANSLATE("first argument must be a function")
+
+TRANSLATE("first argument must be a tuple of ndarrays")
+
+TRANSLATE("first argument must be an ndarray")
+
+TRANSLATE("first argument must be an ndarray")
+
+TRANSLATE("first argument must be an ndarray")
+
+TRANSLATE("first argument to super() must be type")
+
+TRANSLATE("first two arguments must be ndarrays")
+
+TRANSLATE("first two arguments must be ndarrays")
+
+TRANSLATE("flattening order must be either 'C', or 'F'")
+
+TRANSLATE("flip argument must be an ndarray")
+
+TRANSLATE("format needs a dict")
+
+TRANSLATE("format string didn't convert all arguments")
+
+TRANSLATE("format string needs more arguments")
+
+TRANSLATE("full")
+
+TRANSLATE("full")
+
+TRANSLATE("function doesn't take keyword arguments")
+
+TRANSLATE("function expected at most %d arguments, got %d")
+
+TRANSLATE("function got multiple values for argument '%q'")
+
+TRANSLATE("function got multiple values for argument '%q'")
+
+TRANSLATE("function has the same sign at the ends of interval")
+
+TRANSLATE("function is defined for ndarrays only")
+
+TRANSLATE("function missing %d required positional arguments")
+
+TRANSLATE("function missing keyword-only argument")
+
+TRANSLATE("function missing required keyword argument '%q'")
+
+TRANSLATE("function missing required positional argument #%d")
+
+TRANSLATE("function takes %d positional arguments but %d were given")
+
+TRANSLATE("function takes %d positional arguments but %d were given")
+
+TRANSLATE("function takes %d positional arguments but %d were given")
+
+TRANSLATE("function takes %d positional arguments but %d were given")
+
+TRANSLATE("function takes %d positional arguments but %d were given")
+
+TRANSLATE("generator already executing")
+
+TRANSLATE("generator already executing")
+
+TRANSLATE("generator ignored GeneratorExit")
+
+TRANSLATE("generator raised StopIteration")
+
+TRANSLATE("generator raised StopIteration")
+
+TRANSLATE("identifier redefined as global")
+
+TRANSLATE("identifier redefined as nonlocal")
+
+TRANSLATE("import * not at module level")
+
+TRANSLATE("incompatible .mpy arch")
+
+TRANSLATE("incompatible .mpy file")
+
+TRANSLATE("incompatible .mpy file")
+
+TRANSLATE("incomplete format key")
+
+TRANSLATE("incomplete format")
+
+TRANSLATE("incorrect padding")
+
+TRANSLATE("index is out of bounds")
+
+TRANSLATE("index is out of bounds")
+
+TRANSLATE("index is out of bounds")
+
+TRANSLATE("index is out of bounds")
+
+TRANSLATE("index must be tuple or int")
+
+TRANSLATE("index out of range")
+
+TRANSLATE("index out of range")
+
+TRANSLATE("indices must be integers, slices, or Boolean lists")
+
+TRANSLATE("input and output dimensions differ")
+
+TRANSLATE("input and output shapes differ")
+
+TRANSLATE("input argument must be an integer, a tuple, or a list")
+
+TRANSLATE("input array length must be power of 2")
+
+TRANSLATE("input arrays are not compatible")
+
+TRANSLATE("input arrays are not compatible")
+
+TRANSLATE("input data must be an iterable")
+
+TRANSLATE("input data must be an iterable")
+
+TRANSLATE("input is not iterable")
+
+TRANSLATE("input matrix is asymmetric")
+
+TRANSLATE("input matrix is asymmetric")
+
+TRANSLATE("input matrix is singular")
+
+TRANSLATE("input matrix is singular")
+
+TRANSLATE("input must be a dense ndarray")
+
+TRANSLATE("input must be a dense ndarray")
+
+TRANSLATE("input must be one-dimensional")
+
+TRANSLATE("input must be square matrix")
+
+TRANSLATE("input must be tuple, list, range, or ndarray")
+
+TRANSLATE("input must be tuple, list, range, or ndarray")
+
+TRANSLATE("input vectors must be of equal length")
+
+TRANSLATE("interp is defined for 1D iterables of equal length")
+
+TRANSLATE("invalid exception")
+
+TRANSLATE("invalid format specifier")
+
+TRANSLATE("invalid micropython decorator")
+
+TRANSLATE("invalid micropython decorator")
+
+TRANSLATE("invalid step")
+
+TRANSLATE("invalid syntax for integer with base %d")
+
+TRANSLATE("invalid syntax for number")
+
+TRANSLATE("invalid syntax")
+
+TRANSLATE("invalid syntax")
+
+TRANSLATE("invalid syntax")
+
+TRANSLATE("issubclass() arg 1 must be a class")
+
+TRANSLATE("issubclass() arg 2 must be a class or a tuple of classes")
+
+TRANSLATE("iterations did not converge")
+
+TRANSLATE("join expects a list of str/bytes objects consistent with self object")
+
+TRANSLATE("keyword argument(s) not implemented - use normal args instead")
+
+TRANSLATE("lhs and rhs should be compatible")
+
+TRANSLATE("local variable referenced before assignment")
+
+TRANSLATE("malformed f-string")
+
+TRANSLATE("math domain error")
+
+TRANSLATE("matrix is not positive definite")
+
+TRANSLATE("maximum number of dimensions is " "2")
+
+TRANSLATE("maximum number of dimensions is " "2")
+
+TRANSLATE("maximum number of dimensions is " "2")
+
+TRANSLATE("maximum number of dimensions is " "2")
+
+TRANSLATE("maximum recursion depth exceeded")
+
+TRANSLATE("maxiter must be > 0")
+
+TRANSLATE("maxiter must be > 0")
+
+TRANSLATE("maxiter should be > 0")
+
+TRANSLATE("median argument must be an ndarray")
+
+TRANSLATE("memory allocation failed, allocating %u bytes")
+
+TRANSLATE("memory allocation failed, heap is locked")
+
+TRANSLATE("memoryview offset too large")
+
+TRANSLATE("memoryview: length is not a multiple of itemsize")
+
+TRANSLATE("mode must be complete, or reduced")
+
+TRANSLATE("more degrees of freedom than data points")
+
+TRANSLATE("more degrees of freedom than data points")
+
+TRANSLATE("multiple *x in assignment")
+
+TRANSLATE("multiple bases have instance lay-out conflict")
+
+TRANSLATE("must use keyword argument for key function")
+
+TRANSLATE("name '%q' isn't defined")
+
+TRANSLATE("name too long")
+
+TRANSLATE("native code in .mpy unsupported")
+
+TRANSLATE("ndarray length overflows")
+
+TRANSLATE("need more than %d values to unpack")
+
+TRANSLATE("need more than %d values to unpack")
+
+TRANSLATE("negative shift count")
+
+TRANSLATE("negative shift count")
+
+TRANSLATE("negative shift count")
+
+TRANSLATE("nested index must be int")
+
+TRANSLATE("no active exception to reraise")
+
+TRANSLATE("no binding for nonlocal found")
+
+TRANSLATE("no default packer")
+
+TRANSLATE("no default seed")
+
+TRANSLATE("no module named '%q'")
+
+TRANSLATE("non-default argument follows default argument")
+
+TRANSLATE("non-hex digit")
+
+TRANSLATE("not a constant")
+
+TRANSLATE("not supported for input types")
+
+TRANSLATE("number of points must be at least 2")
+
+TRANSLATE("number of points must be at least 2")
+
+TRANSLATE("object ")
+
+TRANSLATE("object '%s' isn't a tuple or list")
+
+TRANSLATE("object not in sequence")
+
+TRANSLATE("object of type '%s' has no len()")
+
+TRANSLATE("object with buffer protocol required")
+
+TRANSLATE("offset is too large")
+
+TRANSLATE("offset must be non-negative and no greater than buffer length")
+
+TRANSLATE("only ndarrays can be concatenated")
+
+TRANSLATE("only slices with step=1 (aka None) are supported")
+
+TRANSLATE("only slices with step=1 (aka None) are supported")
+
+TRANSLATE("only slices with step=1 (aka None) are supported")
+
+TRANSLATE("only slices with step=1 (aka None) are supported")
+
+TRANSLATE("only slices with step=1 (aka None) are supported")
+
+TRANSLATE("only slices with step=1 (aka None) are supported")
+
+TRANSLATE("opcode")
+
+TRANSLATE("operands could not be broadcast together")
+
+TRANSLATE("operands could not be broadcast together")
+
+TRANSLATE("operands could not be broadcast together")
+
+TRANSLATE("operands could not be broadcast together")
+
+TRANSLATE("operands could not be broadcast together")
+
+TRANSLATE("operands could not be broadcast together")
+
+TRANSLATE("operation is defined for 2D arrays only")
+
+TRANSLATE("operation is defined for ndarrays only")
+
+TRANSLATE("operation is implemented for 1D Boolean arrays only")
+
+TRANSLATE("operation is not implemented on ndarrays")
+
+TRANSLATE("operation is not supported for given type")
+
+TRANSLATE("operation not supported for the input types")
+
+TRANSLATE("ord() expected a character, but string of length %d found")
+
+TRANSLATE("out array is too small")
+
+TRANSLATE("out has wrong type")
+
+TRANSLATE("out keyword is not supported for function")
+
+TRANSLATE("out must be a float dense array")
+
+TRANSLATE("out must be an ndarray")
+
+TRANSLATE("out must be of float dtype")
+
+TRANSLATE("output array has wrong type")
+
+TRANSLATE("output array must be contiguous")
+
+TRANSLATE("overflow converting long int to machine word")
+
+TRANSLATE("overflow converting long int to machine word")
+
+TRANSLATE("pop from empty %q")
+
+TRANSLATE("pop from empty %q")
+
+TRANSLATE("pop from empty %q")
+
+TRANSLATE("pop from empty %q")
+
+TRANSLATE("positional arg after **")
+
+TRANSLATE("positional arg after keyword arg")
+
+TRANSLATE("pow() 3rd argument cannot be 0")
+
+TRANSLATE("pow() with 3 arguments requires integers")
+
+TRANSLATE("pull masks conflict with direction masks")
+
+TRANSLATE("real and imaginary parts must be of equal length")
+
+TRANSLATE("requested length %d but object has length %d")
+
+TRANSLATE("results cannot be cast to specified type")
+
+TRANSLATE("results cannot be cast to specified type")
+
+TRANSLATE("roll argument must be an ndarray")
+
+TRANSLATE("rsplit(None,n)")
+
+TRANSLATE("shape must be None, and integer or a tuple of integers")
+
+TRANSLATE("shape must be None, and integer or a tuple of integers")
+
+TRANSLATE("shape must be None, and integer or a tuple of integers")
+
+TRANSLATE("shape must be integer or tuple of integers")
+
+TRANSLATE("short read")
+
+TRANSLATE("sign not allowed in string format specifier")
+
+TRANSLATE("sign not allowed with integer format specifier 'c'")
+
+TRANSLATE("size is defined for ndarrays only")
+
+TRANSLATE("size must match out.shape when used together")
+
+TRANSLATE("small int overflow")
+
+TRANSLATE("soft reboot\n")
+
+TRANSLATE("sort argument must be an ndarray")
+
+TRANSLATE("sos array must be of shape (n_section, 6)")
+
+TRANSLATE("sos[:, 3] should be all ones")
+
+TRANSLATE("sosfilt requires iterable arguments")
+
+TRANSLATE("splitting with sub-captures")
+
+TRANSLATE("stop not reachable from start")
+
+TRANSLATE("stop not reachable from start")
+
+TRANSLATE("stream operation not supported")
+
+TRANSLATE("string argument without an encoding")
+
+TRANSLATE("string argument without an encoding")
+
+TRANSLATE("string index out of range")
+
+TRANSLATE("string index out of range")
+
+TRANSLATE("string indices must be integers, not %s")
+
+TRANSLATE("substring not found")
+
+TRANSLATE("substring not found")
+
+TRANSLATE("super() can't find self")
+
+TRANSLATE("syntax error in JSON")
+
+TRANSLATE("timeout waiting for flux")
+
+TRANSLATE("timeout waiting for index pulse")
+
+TRANSLATE("timeout waiting for index pulse")
+
+TRANSLATE("timestamp out of range for platform time_t")
+
+TRANSLATE("tobytes can be invoked for dense arrays only")
+
+TRANSLATE("too many args")
+
+TRANSLATE("too many dimensions")
+
+TRANSLATE("too many dimensions")
+
+TRANSLATE("too many indices")
+
+TRANSLATE("too many values to unpack (expected %d)")
+
+TRANSLATE("trapz is defined for 1D arrays of equal length")
+
+TRANSLATE("trapz is defined for 1D iterables")
+
+TRANSLATE("tx and rx cannot both be None")
+
+TRANSLATE("type '%q' isn't an acceptable base type")
+
+TRANSLATE("type object '%q' has no attribute '%q'")
+
+TRANSLATE("type takes 1 or 3 arguments")
+
+TRANSLATE("unexpected indent")
+
+TRANSLATE("unexpected keyword argument '%q'")
+
+TRANSLATE("unexpected keyword argument '%q'")
+
+TRANSLATE("unexpected keyword argument '%q'")
+
+TRANSLATE("unexpected keyword argument '%q'")
+
+TRANSLATE("unicode name escapes")
+
+TRANSLATE("unindent doesn't match any outer indent level")
+
+TRANSLATE("unknown format code '%c' for object of type '%q'")
+
+TRANSLATE("unknown format code '%c' for object of type '%q'")
+
+TRANSLATE("unknown format code '%c' for object of type '%q'")
+
+TRANSLATE("unmatched '%c' in format")
+
+TRANSLATE("unmatched '%c' in format")
+
+TRANSLATE("unreadable attribute")
+
+TRANSLATE("unreadable attribute")
+
+TRANSLATE("unreadable attribute")
+
+TRANSLATE("unsupported format character '%c' (0x%x) at index %d")
+
+TRANSLATE("unsupported type for %q: '%s'")
+
+TRANSLATE("unsupported types for %q: '%q', '%q'")
+
+TRANSLATE("usecols is too high")
+
+TRANSLATE("value must fit in %d byte(s)")
+
+TRANSLATE("value must fit in %d byte(s)")
+
+TRANSLATE("wrong axis index")
+
+TRANSLATE("wrong axis index")
+
+TRANSLATE("wrong axis specified")
+
+TRANSLATE("wrong dtype")
+
+TRANSLATE("wrong index type")
+
+TRANSLATE("wrong input type")
+
+TRANSLATE("wrong input type")
+
+TRANSLATE("wrong input type")
+
+TRANSLATE("wrong input type")
+
+TRANSLATE("wrong input type")
+
+TRANSLATE("wrong input type")
+
+TRANSLATE("wrong input type")
+
+TRANSLATE("wrong length of condition array")
+
+TRANSLATE("wrong length of index array")
+
+TRANSLATE("wrong number of arguments")
+
+TRANSLATE("wrong number of arguments")
+
+TRANSLATE("wrong number of arguments")
+
+TRANSLATE("wrong output type")
+
+TRANSLATE("wrong output type")
+
+TRANSLATE("zi must be an ndarray")
+
+TRANSLATE("zi must be of float type")
+
+TRANSLATE("zi must be of shape (n_section, 2)")

@@ -1,0 +1,6 @@
+Q(__name__)
+Q(usb.util)
+Q(SPEED_LOW)
+Q(SPEED_FULL)
+Q(SPEED_HIGH)
+Q(usb.util)

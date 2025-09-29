@@ -1,0 +1,6 @@
+TRANSLATE("en_US")
+Q(utf-8)
+Q(__name__)
+Q(locale)
+Q(getlocale)
+Q(locale)

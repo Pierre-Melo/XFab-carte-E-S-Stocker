@@ -1,0 +1,7 @@
+Q(bits)
+Q(receiver_buffer_size)
+TRANSLATE("UART peripheral in use")
+Q(tx)
+TRANSLATE("No %q pin")
+Q(rx)
+TRANSLATE("No %q pin")

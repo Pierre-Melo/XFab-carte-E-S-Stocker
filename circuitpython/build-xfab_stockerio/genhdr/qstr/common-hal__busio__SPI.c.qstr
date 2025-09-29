@@ -1,0 +1,3 @@
+Q(half_duplex)
+TRANSLATE("%q")
+TRANSLATE("SPI peripheral in use")

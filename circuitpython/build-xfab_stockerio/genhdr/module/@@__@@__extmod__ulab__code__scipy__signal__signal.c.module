@@ -1,0 +1,8 @@
+TRANSLATE("sosfilt requires iterable arguments")
+TRANSLATE("input must be one-dimensional")
+TRANSLATE("zi must be an ndarray")
+TRANSLATE("zi must be of shape (n_section, 2)")
+TRANSLATE("zi must be of float type")
+TRANSLATE("sos array must be of shape (n_section, 6)")
+TRANSLATE("sos[:, 3] should be all ones")
+MP_REGISTER_MODULE(MP_QSTR_ulab_dot_scipy_dot_signal, ulab_scipy_signal_module);

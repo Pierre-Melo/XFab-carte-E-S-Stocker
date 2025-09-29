@@ -1,0 +1,4 @@
+TRANSLATE("empty heap")
+TRANSLATE("can't cancel self")
+TRANSLATE("can't wait")
+MP_REGISTER_MODULE(MP_QSTR__asyncio, mp_module_asyncio);

@@ -1,0 +1,2 @@
+TRANSLATE("Buffer must be a multiple of %d bytes")
+MP_REGISTER_MODULE(MP_QSTR_floppyio, floppyio_module);

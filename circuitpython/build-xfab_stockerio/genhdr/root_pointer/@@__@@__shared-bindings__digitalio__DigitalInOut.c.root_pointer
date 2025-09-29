@@ -1,0 +1,7 @@
+TRANSLATE("%q in use")
+TRANSLATE("Cannot set value when direction is input.")
+TRANSLATE("Drive mode not used when direction is input.")
+TRANSLATE("Drive mode not used when direction is input.")
+TRANSLATE("Pull not used when direction is output.")
+TRANSLATE("Pull not used when direction is output.")
+TRANSLATE("argument num/types mismatch")

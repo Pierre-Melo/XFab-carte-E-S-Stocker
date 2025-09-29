@@ -1,0 +1,8 @@
+Q(start)
+Q(stop)
+Q(step)
+Q(indices)
+TRANSLATE("Cannot subclass slice")
+Q(slice)
+Q(slice)
+TRANSLATE("%q step cannot be zero")

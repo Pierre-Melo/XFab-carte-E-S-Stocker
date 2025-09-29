@@ -1,0 +1,2 @@
+TRANSLATE("%q must be a subclass of %q")
+MP_REGISTER_MODULE(MP_QSTR_warnings, warnings_module);

@@ -1,0 +1,2 @@
+TRANSLATE("No hardware random available")
+MP_REGISTER_MODULE(MP_QSTR_os, os_module);

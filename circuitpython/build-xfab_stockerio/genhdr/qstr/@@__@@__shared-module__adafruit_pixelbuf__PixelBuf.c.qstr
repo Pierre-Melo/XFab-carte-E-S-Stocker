@@ -1,0 +1,4 @@
+Q(int)
+TRANSLATE("can't convert %q to %q")
+Q(color)
+Q(_transmit)

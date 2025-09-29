@@ -1,0 +1,4 @@
+TRANSLATE("filesystem must provide mount method")
+TRANSLATE("%q=%q")
+TRANSLATE("Cannot change USB devices now")
+TRANSLATE("Cannot change USB devices now")

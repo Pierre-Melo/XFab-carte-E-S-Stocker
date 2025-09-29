@@ -1,0 +1,2 @@
+TRANSLATE("unexpected keyword argument '%q'")
+TRANSLATE("invalid exception")

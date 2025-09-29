@@ -1,0 +1,2 @@
+build-xfab_stockerio/common-hal/nvm/__init__.o: common-hal/nvm/__init__.c
+common-hal/nvm/__init__.c :

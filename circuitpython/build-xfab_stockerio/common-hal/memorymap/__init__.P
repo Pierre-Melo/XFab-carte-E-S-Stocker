@@ -1,0 +1,3 @@
+build-xfab_stockerio/common-hal/memorymap/__init__.o: \
+ common-hal/memorymap/__init__.c
+ common-hal/memorymap/__init__.c :

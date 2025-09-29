@@ -1,0 +1,9 @@
+TRANSLATE("input matrix is asymmetric")
+TRANSLATE("matrix is not positive definite")
+TRANSLATE("input matrix is asymmetric")
+TRANSLATE("iterations did not converge")
+TRANSLATE("input matrix is singular")
+TRANSLATE("operation is defined for ndarrays only")
+TRANSLATE("operation is defined for 2D arrays only")
+TRANSLATE("mode must be complete, or reduced")
+MP_REGISTER_MODULE(MP_QSTR_ulab_dot_numpy_dot_linalg, ulab_linalg_module);
